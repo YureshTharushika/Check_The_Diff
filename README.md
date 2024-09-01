@@ -1,50 +1,55 @@
-# React + TypeScript + Vite
+# Check The Diff
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Check The Diff** is a powerful and user-friendly diff checker app built with React, TypeScript, Tailwind CSS, Shadcn UI, and the React Diff library. This app allows you to compare differences between two text files or inputs effortlessly.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **File Upload**: Upload text files to compare their contents.
+- **Drag and Drop**: Simply drag and drop files into the app for quick comparison.
+- **Copy-Paste & Typing**: Copy and paste text or type directly into the input fields to see the differences.
+- **Difference Highlighting**: Visualize differences between texts with clear and easy-to-understand highlighting.
+- **Lucide Icons**: Sleek and modern icons for an enhanced user experience.
 
-## Expanding the ESLint configuration
+## ⚙️ Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A strongly typed programming language that builds on JavaScript.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Shadcn UI**: A customizable and modern UI component library.
+- **React Diff Library**: A library for showing the differences between two texts.
+- **Lucide Icons**: A set of beautiful and consistent icons for the web.
 
-- Configure the top-level `parserOptions` property like this:
+## 🚀 Getting Started
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### 🛠️ Installation
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+1.  Clone the repository:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+    ```sh
+    git clone https://github.com/YureshTharushika/Check_The_Diff.git
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+    cd Check_The_Diff
+    ```
+
+2.  Install dependencies:
+
+    ```sh
+    npm install
+    ```
+
+3.  Start the development server:
+
+    ```sh
+    npm run dev
+    ```
+
+### 📝 Usage
+
+- **Upload Files**: Click the "Upload" button or drag and drop files to compare their contents.
+- **Copy-Paste**: Paste text directly into the input areas.
+- **Typing**: Type text into the input areas for instant comparison.
+- The app will highlight differences in real-time.
+
+## 🧩 Contributing
+
+Contributions are welcome! Please submit a pull request or open an issue to discuss what you would like to change.
