@@ -2,6 +2,8 @@
 
 **Check The Diff** is a powerful and user-friendly diff checker app built with React, TypeScript, Tailwind CSS, Shadcn UI, and the React Diff library. This app allows you to compare differences between two text files or inputs effortlessly.
 
+Live Preview [Here](https://checkthediff.netlify.app/)
+
 ## ✨ Features
 
 - **File Upload**: Upload text files to compare their contents.
